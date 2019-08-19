@@ -1,0 +1,36 @@
+{
+  "author": "Francisco Tavares de Lima Neto",
+  "version": "0.1.0",
+  "description": "Comp type for functional components composition in ReactJs",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "keywords": [
+    "react",
+    "functional",
+    "Functor",
+    "Contravariant",
+    "Monoid",
+    "Profunctor"
+  ],
+  "license": "MIT",
+  "module": "index.js",
+  "name": "react-comp-type",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscotln/react-comp-type.git"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

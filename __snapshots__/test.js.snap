@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comp::concat should concatenate two or more components, one after another 1`] = `
+Array [
+  <em>
+    concatenating
+  </em>,
+  <span>
+    concatenating
+  </span>,
+]
+`;
+
+exports[`Comp::contramap - the props are mapped before hitting the component 1`] = `
+<em>
+  contramapped
+</em>
+`;
+
+exports[`Comp::empty should be a neutral element under concatenation 1`] = `
+<em>
+  concatenating with empty
+</em>
+`;
+
+exports[`Comp::map - the component should be passed as children to the next mapping component 1`] = `
+<div>
+  <p>
+    Original Props
+  </p>
+  <p>
+    Text: mapped
+  </p>
+  <p>
+    Id: 2.718
+  </p>
+  <em>
+    mapped
+  </em>
+</div>
+`;
+
+exports[`Comp::promap - should behave as contramap and map applied together 1`] = `
+<div>
+  <p>
+    Original Props
+  </p>
+  <p>
+    Value: promapped
+  </p>
+  <p>
+    Id: 3.141
+  </p>
+  <em>
+    promapped
+  </em>
+</div>
+`;
