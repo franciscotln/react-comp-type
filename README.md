@@ -43,9 +43,9 @@ Comp1.map(({ children, ...props }) => children) == Comp1;
 ```js
 Comp1.map(ComponentA).map(ComponentB) == Comp1.map(function ComponentC({ children, ...props }) {
   return ComponentB({
-    props,
+    ...props,
     children: ComponentA({
-      props,
+      ...props,
       children
     })
   });
