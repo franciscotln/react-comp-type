@@ -1,6 +1,6 @@
 {
   "author": "Francisco Tavares de Lima Neto",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Comp type for functional components composition in ReactJs",
   "peerDependencies": {
     "react": "^17.10.2",
